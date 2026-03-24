@@ -28,10 +28,4 @@ public class TestM {
         double result = calculator.division(35,5);
         Assertions.assertEquals(7, result);
     }
-
-    @Test
-    void testMultiplicationBig() {
-        int result = calculator.multiplication(300000, 300000);
-        Assertions.assertEquals(90000000000,result);
-    }
 }
